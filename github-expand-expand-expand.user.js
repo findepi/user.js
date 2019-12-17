@@ -6,6 +6,7 @@
 // @author       findepi
 // @license      MIT
 // @match        https://github.com/*/*/pull/*
+// @match        https://github.com/*/*/issues/*
 // @grant        none
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
 // ==/UserScript==
