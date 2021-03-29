@@ -18,7 +18,7 @@
     }
 
     console.log('Showing latest comments');
-    setTimeout(showLatestComments, 100);
+    showLatestComments()
 
     function showLatestComments() {
         var button = jQuery("div[data-test-id='issue.activity.comments-list'] + * button").first();
