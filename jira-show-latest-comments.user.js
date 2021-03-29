@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         JIRA show latest comments
 // @namespace    http://findepi.github.io/
-// @version      0.1
+// @version      0.2
 // @description  try to fix JIRA webapp annoyance where the latest comments are hidden by default
 // @author       findepi
 // @license      MIT
