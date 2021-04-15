@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         JIRA show latest comments
 // @namespace    http://findepi.github.io/
-// @version      0.2
+// @version      0.3
 // @description  try to fix JIRA webapp annoyance where the latest comments are hidden by default
 // @author       findepi
 // @license      MIT
@@ -25,7 +25,7 @@
         if (button.length) {
             let buttonText = button.text();
             console.log(['Found button', button, 'text', buttonText]);
-            if (/View .* newer comments/.test(buttonText)) {
+            if (/View .* newer comments?/.test(buttonText)) {
                 console.log('Requesting newer comments');
                 button.click();
                 return;
